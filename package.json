@@ -1,0 +1,34 @@
+{
+    "name": "cesium-webpack-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "start": "webpack-cli serve --open --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ksrk02/cesium-webpack-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ksrk02/cesium-webpack-app/issues"
+    },
+    "homepage": "https://github.com/ksrk02/cesium-webpack-app#readme",
+    "devDependencies": {
+        "copy-webpack-plugin": "^8.1.1",
+        "css-loader": "^5.2.2",
+        "html-webpack-plugin": "^5.3.1",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "cesium": "^1.80.0"
+    }
+}
