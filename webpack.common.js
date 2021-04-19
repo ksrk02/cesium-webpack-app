@@ -8,7 +8,6 @@ const cesiumSource = 'node_modules/cesium/Source';
 const cesiumWorkers = '../Build/Cesium/Workers';
 
 module.exports = {
-    mode: 'development',
     context: __dirname,
     entry: {
         app: './src/index.js'
@@ -45,8 +44,5 @@ module.exports = {
         new webpack.DefinePlugin({
             CESIUM_BASE_URL: JSON.stringify('')
         })
-    ],
-    devServer: {
-        contentBase: path.join(__dirname, "dist")
-    }
+    ]
 };
