@@ -48,10 +48,5 @@ module.exports = {
     ],
     devServer: {
         contentBase: path.join(__dirname, "dist")
-    },
-    resolve: {
-        alias: {
-            cesium: path.resolve(__dirname, cesiumSource)
-        }
-    },
+    }
 };

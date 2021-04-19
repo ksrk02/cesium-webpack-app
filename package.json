@@ -1,11 +1,11 @@
 {
     "name": "cesium-webpack-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
         "build": "webpack --config webpack.config.js",
-        "start": "webpack-cli serve --open --mode development"
+        "start:dev": "webpack-cli serve --open --mode development"
     },
     "repository": {
         "type": "git",
