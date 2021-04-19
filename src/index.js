@@ -1,7 +1,8 @@
 window.CESIUM_BASE_URL = '/static/Cesium/';
 
 import * as Cesium from 'cesium';
-import 'cesium/Build/Cesium/Widgets/widgets.css';
+import '../node_modules/cesium/Build/Cesium/Widgets/widgets.css';
+// In deveropment mode add this at cesium/package.json:95 instead. => "./Build/Cesium/Widgets/widgets.css": "./Build/Cesium/Widgets/widgets.css",
 import './css/main.css';
 
 
